@@ -5,3 +5,5 @@ number = int(input())
 num = phonenumbers.parse(number,"RO")
 print(carrier.name_for_number(num,"en"))
 print(geocoder.description_for_number(num,"en"))
+print("###################")
+
